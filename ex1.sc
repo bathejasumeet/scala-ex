@@ -8,3 +8,15 @@ while(x < 6){
   }
   x += 1
 }
+
+// procedural syntax, return type is unit so beware
+def add(x:Int, y:Int){
+  return x + y;
+}
+
+add(2,3)
+
+def add2(x:Int, y:Int) = {
+  x + y
+}
+add2(2,3)
